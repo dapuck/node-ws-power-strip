@@ -1,0 +1,21 @@
+{
+  "name": "ws-power-strip",
+  "version": "0.0.0",
+  "description": "WebSockets Power Strip. Allows multiple WebSocket plugins to use the same \"outlet\". Makes use of Socket.io's namespace feature.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "WebSockets",
+    "socket.io",
+    "plugins"
+  ],
+  "author": "Ian McCall <imccall@da-puck.com>",
+  "license": "MIT",
+  "dependencies": {
+    "socket.io": "~1.0.6",
+    "nomnom": "~1.8.0",
+    "lodash": "~2.4.1"
+  }
+}
